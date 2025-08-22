@@ -25,5 +25,9 @@ public class LoginTest extends BaseTest {
         String error = login.getErrorText();
         Assert.assertTrue(error.toLowerCase().contains("epic sadface"),
                 "Expected error message not shown. Actual: " + error);
+
+        System.out.println("CI Test Run");
+
     }
+
 }
